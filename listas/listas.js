@@ -7,7 +7,14 @@ function adddata(){
     var genero = document.getElementById("gender").value;
     var nacionalidad = document.getElementById("nacio").value;
 
-    document.getElementById("tablebody").innerHTML += "<tr> <td>"+name+"</td> <td>"+apellido+"</td> <td>"+documento+"</td> <td>"+fecha+"</td> <td>"+nacionalidad+" </td> <td>"+genero+"</td> </tr>";
+    document.getElementById("tablebody").innerHTML += 
+    "<tr> <td>"+name
+    +"</td> <td>"+apellido
+    +"</td> <td>"+documento
+    +"</td> <td>"+fecha
+    +"</td> <td>"+nacionalidad
+    +" </td> <td>"+genero
+    +" </td> <td> <i class='fa fa-trash'></i> </td> </tr>";
 
 
 }
